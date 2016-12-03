@@ -38,6 +38,7 @@ First I:
 
                                 * StringService=====> src ====> ie ===> gmit==> sw => StringsService
 3. As *Resultator* was referenced within StringsService I then went about setting up the Interface *Resultator* with the following methods within the same directory as point two:
+
 	````    
 		public String getResult() throws RemoteException;
 		public void setResult(String result) throws RemoteException;
