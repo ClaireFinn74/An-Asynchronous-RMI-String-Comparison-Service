@@ -33,7 +33,9 @@ First I:
 5. Now I just had to start up my Tomcat Server by navigating inside my *bin* folder within my downloaded Tomcat folder and using the command *startup.bat*.
 
 ## How I set my code up in Eclipse:
-1. I added in the *ServiceHandler* class into my *String Service* project within the Web Content =====> WEB-INF ====> Java Code ===> ie ==> gmit => sw directory.
+1. I added in the *ServiceHandler* class into my *String Service* project within the
+
+				* Web Content =====> WEB-INF ====> Java Code ===> ie ==> gmit => sw directory.
 2. Then, I set up my Interface StringsService within that same *String Service* project like so:
 
                                 * StringService=====> src ====> ie ===> gmit==> sw => StringsService
