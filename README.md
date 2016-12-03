@@ -38,13 +38,12 @@ First I:
 
                                 * StringService=====> src ====> ie ===> gmit==> sw => StringsService
 3. As *Resultator* was referenced within StringsService I then went about setting up the Interface *Resultator* with the following methods within the same directory as point two:
-````    
-	public String getResult() throws RemoteException;
-	public void setResult(String result) throws RemoteException;
-	public boolean isProcessed() throws RemoteException;
-	public void setProcessed() throws RemoteException; 
-````
-
+	````    
+		public String getResult() throws RemoteException;
+		public void setResult(String result) throws RemoteException;
+		public boolean isProcessed() throws RemoteException;
+		public void setProcessed() throws RemoteException; 
+	````
 4. I then went about exposing the interface *Resultator* by setting up the class *ResultatorImpl*.
 5. Next, I added in the *web.xml* and the created *Index.jsp* file within:
 
