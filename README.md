@@ -20,15 +20,10 @@ First I:
 
 ## Using CMD prompt to set up JAVA_HOME and CATALINA_HOME:
 1. Fist I went into *Advanced System Settings* on my machine.
-2. I went into Environment Variables and then I added two new ones like so:
-
+2. I went into *Environment Variables* and then I added two new ones like so:
 [![J2EESETUP.png](https://s14.postimg.org/4f0lhocbl/J2_EESETUP.png)](https://postimg.org/image/cxa1m0iu5/)
-
-3. I just had to point at where my Java home was (in my Program Files in a folder called Java) and then point to where I had Catalina on my machine ~(within my downloaded Tomcat folder)
-
-4. I could then just ECGO my JAVA_HOME and CATALINA_HOME to double-check things were set up correctly like so:
-
+3. I just had to point at where my Java home was (in my *Program Files* in a folder called *Java*) and then point to where I had *Catalina* on my machine (within my downloaded Tomcat folder)
+4. I could then just ECHO my *JAVA_HOME* and *CATALINA_HOME* to double-check things were set up correctly like so:
 [![CMDECHOHOME.png](https://s13.postimg.org/f1po3xepz/CMDECHOHOME.png)](https://postimg.org/image/uaflhp8eb/)
-
 5. Now I just had to start up my Tomcat Server by navigating inside my *bin* folder within my downloaded Tomcat folder and using the command *startup.bat*.
 
