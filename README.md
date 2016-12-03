@@ -15,8 +15,9 @@ First I:
                                   * DamerauLevenshtein
                                   
 7. Created a WEB EE Dynamic Project called *StringService* with the class *ServiceHandler* like so:
-
 [![javaee.png](https://s11.postimg.org/jh81lmjqr/javaee.png)](https://postimg.org/image/9woeyquen/)
+
+8. Added a reference to the Servlet.api file within the *lib* folder of my *tomcat* by right-clicking on my project and selecting the otion *Add external JAR*
 
 ## Using CMD prompt to set up JAVA_HOME and CATALINA_HOME:
 1. Fist I went into *Advanced System Settings* on my machine.
