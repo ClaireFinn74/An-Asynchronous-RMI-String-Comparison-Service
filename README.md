@@ -45,7 +45,11 @@ First I:
 	public boolean isProcessed() throws RemoteException;
 	public void setProcessed() throws RemoteException; 
 ````
-  
-  4. I then went about exposing the interface *Resultator* by setting up the class *ResultatorImpl*.
-  5. Next, I added in the *web.xml* and the created *Index.jsp* file within StringService ===> Web Content ==> WEB-INF => lib
-  6. Then, I added in the 3 edit distance algorithms into my RMI Interface project within the directory src ===> ie ==> gmit => sw
+
+4. I then went about exposing the interface *Resultator* by setting up the class *ResultatorImpl*.
+5. Next, I added in the *web.xml* and the created *Index.jsp* file within:
+
+				 * StringService ===> Web Content ==> WEB-INF => lib
+6. Then, I added in the 3 edit distance algorithms into my RMI Interface project within the directory:
+
+			       	 * src ===> ie ==> gmit => sw
