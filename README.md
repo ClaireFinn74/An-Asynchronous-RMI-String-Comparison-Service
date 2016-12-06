@@ -32,6 +32,21 @@ First I:
 
 5. Now I just had to start up my Tomcat Server by navigating inside my *bin* folder within my downloaded Tomcat folder and using the command *startup.bat*.
 
+## Adding authentication for Tomcat:
+
+1. When you navigate to port 8080 and choose 'Manager-App' Tomcat will promp you for a __Username__ and __Password__.
+[![timkaht.png](https://s11.postimg.org/3vl0z0yub/timkaht.png)](https://postimg.org/image/yd0vqkm73/)
+
+2. Within my downloaded Tomcat folder is an *xml file* called *users.xml*.
+3. To add yourself into the file as a user just use:
+
+```
+<user username="claire" password="Claire123" roles="manager-gui" /> 
+```
+(or whatever username and password you want yourself)
+
+4. Now enter these credentials in when asked for!
+
 ## How I set my code up in Eclipse:
 1. I added in the *ServiceHandler* class into my *String Service* project within the
 
