@@ -38,12 +38,10 @@ First I:
 [![timkaht.png](https://s11.postimg.org/3vl0z0yub/timkaht.png)](https://postimg.org/image/yd0vqkm73/)
 
 2. Within my downloaded Tomcat folder is an *xml file* called *users.xml*.
-3. To add yourself into the file as a user just use:
-
+3. To add yourself into the file as a user just add this text to the bottom of the file in a text editor (or whatever username and password you want yourself) :
 ```
 <user username="claire" password="Claire123" roles="manager-gui" /> 
 ```
-(or whatever username and password you want yourself)
 
 4. Now enter these credentials in when asked for!
 
