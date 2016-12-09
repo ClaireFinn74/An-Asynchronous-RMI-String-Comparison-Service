@@ -10,8 +10,8 @@ public class Servant
 {
 	
 //This is the Main method of the Servant class
-public static void main(String[] args) throws Exception {
-		
+public static void main(String[] args) throws Exception
+{	
 		//Making an instance of StringsService so I can use its methods
 		StringsService newInstance = new StringServiceImpl();
 		LocateRegistry.createRegistry(1099); //Obtaining a reference to a remote object registry on port 1099
