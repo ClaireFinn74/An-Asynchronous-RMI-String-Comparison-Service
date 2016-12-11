@@ -4,7 +4,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class ServiceHandler extends HttpServlet {
+public class ServiceHandler extends HttpServlet p{
 	private String remoteHost = null;
 	private static long jobNumber = 0;
 
@@ -13,7 +13,8 @@ public class ServiceHandler extends HttpServlet {
 		remoteHost = ctx.getInitParameter("RMI_SERVER"); //Reads the value from the <context-param> in web.xml
 	}
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+{
 		resp.setContentType("text/html");
 		PrintWriter out = resp.getWriter();
 		
@@ -80,7 +81,8 @@ public class ServiceHandler extends HttpServlet {
 		//
 	}
 
-	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+	{
 		doGet(req, resp);
  	}
 }
