@@ -65,4 +65,6 @@ First I:
 1. http://stackoverflow.com/questions/1842734/how-to-asynchronously-call-a-method-in-java Async calls in Java
 2. http://stackoverflow.com/questions/10044079/display-messesge-wait-as-background-processing-happening JSP
 3. http://javarevisited.blogspot.ie/2012/12/blocking-queue-in-java-example-ArrayBlockingQueue-LinkedBlockingQueue.html BlockingQueues
-4. http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html BlockingQueeues
+4. http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html BlockingQueues
+5. https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html HashMaps
+6. http://docs.oracle.com/javase/7/docs/technotes/guides/rmi/hello/hello-world.html RMIGetStarted
