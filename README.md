@@ -40,7 +40,7 @@ First I:
 4. Now enter these credentials in when asked for!
 
 ## How I set my code up in Eclipse:
-1. Within my *gmit* folder, I created 3 folders to split up my code; One called *RMIInterface* to store my RMI classes, One called *ServiceHandler~* to store my *sServiceHandler* class and One called *String Algos* to store these classes for computing the edit distance:
+1. Within my *gmit* folder, I created 3 folders to split up my code; One called *RMIInterface* to store my RMI classes, One called *ServiceHandler~* to store my *sServiceHandler* class, and One called *String Algos* to store these classes for computing the edit distance:
                                   
                                   
                                   * Levenshtein
@@ -56,6 +56,7 @@ First I:
 		public void setProcessed() throws RemoteException; 
 	````
 3. I then went about exposing the interface *Resultator* by setting up the class *ResultatorImpl*.
+4. Then, within the *sw* folder I added a *Servant* class.
 5. Next, I added in the *web.xml* and the created *Index.jsp* file within:
 
 				 * StringService ===> Web Content ==> WEB-INF => lib			 
