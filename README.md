@@ -11,11 +11,11 @@ First I:
 [![DynamicWeb.png](https://s29.postimg.org/6kkqhpzuv/Dynamic_Web.png)](https://postimg.org/image/clifesmgz/)
 
 7. Added a reference to my *Service Handler* class within my *web.xml* file.
-8. Added a reference to the *Servlet.api* file within the *lib* folder of my *tomcat* by right-clicking on my project and selecting the otion *Add external JAR*
+8. Added a reference to the *Servlet.api* file within the *lib* folder of my *tomcat* by right-clicking on my project and selecting the option *Add external JAR*
 9. To create the *Index.jsp* file I started apache tomcat and then while it was running I dragged and dropped my *WAR* file *(Comparator.war)* into the *webapps folder of tomcat* and then a folder called *Comparator* was created with the Index.jsp file within it.
 
 ## Using CMD prompt to set up JAVA_HOME and CATALINA_HOME:
-1. Fist I went into *Advanced System Settings* on my machine.
+1. First I went into *Advanced System Settings* on my machine.
 2. I went into *Environment Variables* and then I added two new ones like so:
 [![J2EESETUP.png](https://s14.postimg.org/4f0lhocbl/J2_EESETUP.png)](https://postimg.org/image/cxa1m0iu5/)
 
