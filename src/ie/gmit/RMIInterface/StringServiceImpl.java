@@ -25,10 +25,10 @@ public class StringServiceImpl extends UnicastRemoteObject implements StringsSer
 		//This is what updates the StringService Interface each time
 		r = new ResultatorImpl(); 
 		//This thread will handle FirstString and SecondString being compared using an algorithm
-		StringCompare compareString = new StringCompare(FirstString, SecondString, r, algo);
-		Thread compareJob = new Thread(compareString);
+		//StringCompare compareString = new StringCompare(FirstString, SecondString, r, algo);
+		//Thread compareJob = new Thread(compareString);
 		//start the thread which compares these two strings
-		compareJob.start();
+		//compareJob.start();
 			
 		return r; //current version of resultator r is returned
 	}

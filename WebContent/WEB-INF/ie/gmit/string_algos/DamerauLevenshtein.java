@@ -1,4 +1,4 @@
-package ie.gmit.string-algos;
+package ie.gmit.String_algos;
 
 public class DamerauLevenshtein
 {

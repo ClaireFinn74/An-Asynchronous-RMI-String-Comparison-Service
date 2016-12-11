@@ -1,6 +1,6 @@
-package ie.gmit.string-algos;
+package ie.gmit.String_algos;
 
-public class Levenshtein
+public class DamerauLevenshtein
 {
     public int distance(String s, String t)
     {
@@ -13,15 +13,20 @@ public class Levenshtein
             for (int j = 1; j <= t.length(); j++)
             {
                 distance[i][j] = Math.min(distance[i - 1][j] + 1, Math.min(distance[i][j - 1] + 1, distance[i - 1][j - 1] + ((s.charAt(i - 1) == t.charAt(j - 1)) ? 0 : 1)));
+            
+                if ((i > 1) && (j > 1) && (s.charAt(i-1) == t.charAt(j-2)) && (s.charAt(i-2) == t.charAt(j-1)))
+                {
+                    distance[i][j] = Math.min(distance[i][j], distance[i-2][j-2] + ((s.charAt(i - 1) == t.charAt(j - 1)) ? 0 : 1));
+                }
             }
     
         }
         return distance[s.length()][t.length()];
     }
     
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
-    	Levenshtein algo = new Levenshtein();
+    	DamerauLevenshtein algo = new DamerauLevenshtein();
     	System.out.println(algo.distance("Distributed Systems", "Disturbed Systems"));
     	System.out.println(algo.distance("Distributed Systems", "Distressed Sausages"));
     	System.out.println(algo.distance("Distributed Systems", "Distasteful Sisters"));
