@@ -67,10 +67,9 @@ First I:
 1. I've made a JAR file out of my main classes and pointed the main class to run as my *servant.java* (Server class)
 2. Run the Jar using the following command:
 
-```
-java -cp ./string-service.jar ie.gmit.sw.Servant
- ``` 
- 
+			```
+			java -cp ./string-service.jar ie.gmit.sw.Servant
+			``` 
  3. Now, run your  __Tomcat Server__ by navigating on the *command line* to the *bin* folder and using:
 
 		```
