@@ -62,7 +62,10 @@ First I:
 				 * StringService ===> Web Content ==> WEB-INF => lib			 
 
 
-## How to run the project:
+# How to run the project:
+
+## Before you run anything remember to grab my *Comparator* folder within my *project* folder and drop it into your *Tomcat Server*.
+
 
 1. I've made a JAR file out of my main classes and pointed the main class to run as my *servant.java* (Server class)
 2. Run the Jar using the following command:
