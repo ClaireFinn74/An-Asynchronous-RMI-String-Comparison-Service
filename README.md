@@ -40,7 +40,7 @@ First I:
 4. Now enter these credentials in when asked for!
 
 ## How I set my code up in Eclipse:
-1. Within my *gmit* folder, I created 3 folders to split up my code; One called *RMIInterface* to store my RMI classes, One called *ServiceHandler~* to store my *sServiceHandler* class, and One called *String Algos* to store these classes for computing the edit distance:
+1. Within my *gmit* folder, I created 3 folders to split up my code; One called *RMIInterface* to store my RMI classes, One called *ServiceHandler* to store my *ServiceHandler* class, and One called *String Algos* to store these classes for computing the edit distance:
                                   
                                   
                                   * Levenshtein
