@@ -73,10 +73,9 @@ java -cp ./string-service.jar ie.gmit.sw.Servant
  
  3. Now, run your  __Tomcat Server__ by navigating on the *command line* to the *bin* folder and using:
 
-```
-startup.bat
-```
-
+		```
+		startup.bat
+		```
 4. Go to localhost8080 and a Tomcat webpage should be displayed, go to *Manager App*.
 5. Enter in any Username and Password authentication that appears (see above if you aren't already set up as a user on Tomcat)
 6. Now, scroll down to the Deploy WAR file button like so and choose my Comparator folder:
