@@ -1,9 +1,12 @@
 package ie.gmit.sw;
-
+//Using this import to deal with binding names
 import java.rmi.Naming;
+//Using this import to deal with using the registry
 import java.rmi.registry.LocateRegistry;
-import ie.gmit.rmiModels.StringService;
-import ie.gmit.rmiModels.StringServiceImpl;
+// Using this import to deal with referencing my StringService class within the RMIInterface folder
+import ie.gmit.RMInterface.StringService;
+// Using this import to deal with my StringServiceImpl class within the RMIInterface folder
+import ie.gmit.RMInterface.StringServiceImpl;
 
 //This is the class that will be used to run the RMI server
 public class Servant
