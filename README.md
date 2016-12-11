@@ -79,8 +79,8 @@ First I:
 		startup.bat
 		```
 4. Go to localhost8080 and a Tomcat webpage should be displayed, go to *Manager App*.
-5. Enter in any Username and Password authentication that appears (see above if you aren't already set up as a user on Tomcat)
-6. Now, scroll down to the Deploy WAR file button like so and choose my Comparator folder:
+5. Enter in any *Username* and *Password* authentication that appears (see above if you aren't already set up as a user on Tomcat)
+6. Now, scroll down to the *Deploy WAR file* button like so and choose my *Comparator* folder:
 [![Comparator.png](https://s28.postimg.org/orugtfpkt/Comparator.png)](https://postimg.org/image/p4luzm7uh/)
 
 7. You should then scroll up to *Applications* and click on the *comparator* link:
