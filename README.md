@@ -8,7 +8,7 @@ First I:
 4. Configured Eclipse to use Java 8 as the Runtime
 5. Configured Eclipse to use Tomcat 9
 6. Created a Dynamic Web Project called *An Asynchronous RMI String Comparison Service* with 3 folders, *ie*, *gmit*, and *sw* like so:
-[![DynamicWeb.png](https://s28.postimg.org/7ao981om5/Dynamic_Web.png)](https://postimg.org/image/bjsza7rvd/)
+[![DynamicWeb.png](https://s29.postimg.org/6kkqhpzuv/Dynamic_Web.png)](https://postimg.org/image/clifesmgz/)
 
 7. Added a reference to my *Service Handler* class within my *web.xml* file.
 8. Added a reference to the *Servlet.api* file within the *lib* folder of my *tomcat* by right-clicking on my project and selecting the otion *Add external JAR*
